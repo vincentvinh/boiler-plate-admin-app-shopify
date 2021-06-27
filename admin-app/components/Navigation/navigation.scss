@@ -1,0 +1,22 @@
+.main-navigation {
+  padding-left: 5rem;
+  border-bottom: 1px solid rgba(201, 204, 207, 1);
+
+  ul.nav-list {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    li.nav-item a {
+      font-size: 1.6rem;
+      font-weight: 600;
+      line-height: 3.2rem;
+      color: rgba(32, 34, 35, 1);
+      text-decoration: none;
+      &:hover, &.active {
+        color: rgba(0, 123, 92, 1);
+      }
+    }
+  }
+}
